@@ -5,7 +5,7 @@ services:
     ports:
       - "2181"
     hostname: zookeeper
-kafka:
+  kafka:
     image: wurstmeister/kafka
     command: [start-kafka.sh]
     ports:
